@@ -1,6 +1,6 @@
 <!-- src/App.vue -->
 <template>
-  <q-layout view="hHh lpR fFf">
+  <q-layout view="hHh lpR fFf" class="bg-image">
     <q-header elevated class="bg-primary text-white">
       <q-toolbar>
         <q-toolbar-title>Weather</q-toolbar-title>
@@ -99,5 +99,14 @@ export default {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 1.2em;
+}
+
+/* Tambahkan styling untuk background image */
+.bg-image {
+  background-image: url('https://cdn-5.motorsport.com/images/amp/YBeJX1v2/s1000/formula-1-belgian-gp-2021-seba-2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 </style>
